@@ -1,0 +1,93 @@
+# ========== Dependencies ==========
+node_modules/
+bun_components/
+.npm/
+.yarn/
+.pnp
+.pnp.js
+
+# ========== Build Output ==========
+dist/
+build/
+out/
+server.js
+server.cjs
+*.tsbuildinfo
+
+# ========== Environment & Secrets ==========
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+
+# ========== Backend Configs with Credentials ==========
+backend-database/**/config.php
+
+# ========== Logs & Debug ==========
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+logs/
+*.log
+
+# ========== Cache ==========
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+.stylelintcache
+.turbo/
+
+# ========== OS Files ==========
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ========== Editor / IDE ==========
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ========== Testing ==========
+coverage/
+*.lcov
+.nyc_output/
+
+# ========== Misc ==========
+*.local
+*.orig
+*.rej
+.history/
+.temp/
+.tmp/
